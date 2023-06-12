@@ -1,0 +1,100 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  /* min-height: calc(100vh - 57.8px); */
+  max-height: calc(100vh - 57.8px);
+  overflow-y: scroll;
+  overflow-x: auto;
+  border-right: 1px solid #dee2e6;
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.sidebar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.sidebar::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.inbox-button {
+  margin: 5px auto;
+  padding-left: 10px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.inbox-button.selected {
+  background-color: rgb(202 202 202);
+}
+
+.inbox-button:hover {
+  cursor: pointer;
+  background-color: rgb(202 202 202);
+}
+
+.sidebar-dept,
+.sidebar-actions,
+.sidebar-recents {
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.departments-heading,
+.recents-heading {
+  cursor: pointer;
+}
+
+.department {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 5px auto;
+}
+
+.recents-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recent-container {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  margin: 5px auto;
+}
+
+.caller-avatar {
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+      45deg,
+      rgb(185, 185, 204),
+      rgb(151, 151, 218) 100%
+    ),
+    linear-gradient(135deg, rgb(255, 255, 255), rgb(169, 233, 169)),
+    linear-gradient(225deg, rgb(255, 255, 255), rgb(226, 226, 157)),
+    linear-gradient(225deg, rgb(255, 255, 255), rgb(255, 157, 157));
+  /* background-color: pink; */
+  background-size: 50% 50%;
+  background-position: 0% 0%, 0% 100%, 100% 0%, 100% 100%;
+  background-repeat: no-repeat;
+}

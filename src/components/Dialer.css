@@ -1,0 +1,21 @@
+.dialer-input {
+  margin: 10px auto;
+}
+
+.dialer-input input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.dialer-input input::placeholder {
+  padding-left: 40%;
+  color: slategray;
+}
+
+.dialer-input .search-icon {
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  z-index: 9999;
+}

@@ -1,0 +1,50 @@
+.custom-tabs-style {
+  border-bottom: 1px solid gray !important;
+  /* min-height: calc(100vh - 57.8px); */
+  max-height: calc(100vh - 57.8px);
+}
+
+.tab-content {
+  max-height: calc(100vh - 130.8px);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.tab-content::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.tab-content::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.tab-content::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.tab-content::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.custom-tabs-style .nav-link {
+  color: black !important;
+}
+
+.custom-tabs-style .active {
+  /* border: none !important; */
+  border-bottom: 4px solid purple !important;
+}
+
+.log-container {
+  display: flex;
+  align-items: center;
+  margin: 5px auto;
+}
+
+.custom-row-style {
+  height: 50px;
+  font-size: 13px;
+}

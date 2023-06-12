@@ -1,0 +1,26 @@
+.dialpad-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+
+.dialpad-cols {
+    display: flex;
+    height: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dialpad-number {
+    font-size: 18px;
+}
+
+.dialpad-text {
+    font-size: 10px;
+}
+
+.dialpad-rows {
+    margin: 5px auto;
+}

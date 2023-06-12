@@ -1,0 +1,59 @@
+.header .navbar-icon-container {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .icon-wrapper-circle {
+  border: 1px solid lightslategray;
+  padding: 5px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .nav-middle {
+  display: flex !important;
+  justify-content: space-around !important;
+}
+
+.header .input-group input {
+  border-radius: 20px !important;
+  background-color: lightgray;
+}
+
+.header .input-group input::placeholder {
+  padding-left: 40%;
+  color: slategray;
+}
+
+.header .search-icon {
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  z-index: 9999; /*this will keep the icon appearing all time, even when on input::focus*/
+}
+
+.header .logged-user-container {
+  position: relative;
+}
+
+.header .name-container {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .online-indicator {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(19, 186, 19);
+    border-radius: 50%;
+    position: absolute;
+    right: -1px;
+    bottom: -1px;
+    border: 1px solid white;
+}
